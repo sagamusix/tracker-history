@@ -1,11 +1,17 @@
 # Many gaps to be filled here
 
+mpt_xa
+	Name: Modplug Tracker Pre-Alpha 1
+	Author: Olivier Lapicque
+	Date: 1997-09-19		# history
+	Influenced by ft_208
+	Influenced by it_214v3
+
 mpt_a5
 	Name: Modplug Tracker Alpha 5
 	Author: Olivier Lapicque
 	Date: 1998-01-13		# from the file date
-	Influenced by ft_208
-	Influenced by it_214v3
+	Based on mpt_xa 1000
 
 mpt_b1
 	Name: Modplug Tracker Beta 1
@@ -275,4 +281,78 @@ openmpt_128_01_00
 		Support for undocumented IT MIDI macros
 		Improved release node behaviour
 		Improved MIDI export
+	]
+
+openmpt_129_01_00
+	Name: OpenMPT 1.29.01.00
+	Author: Saga Musix & manx
+	Date: 2020-05-24		# Announcement
+	Based on openmpt_128_01_00 [
+		Merge and split patterns
+		Row insert and deletion across patterns
+		Improved plugin bridge
+		Support for AU / SND samples
+		Improved SFZ import
+		A1200 filter option added to Amiga BLEP resampler
+		Tempo limit raised from 512 to 1000 BPM
+		Support for reading OggMod OXM files
+		Improved MED support
+		Direct instrument preview in Comments tab
+		Default WASAPI device added
+		Support for Windows XP / Vista dropped
+	]
+
+openmpt_130_01_00
+	Name: OpenMPT 1.30.01.00
+	Author: Saga Musix & manx
+	Date: 2021-12-23		# Announcement
+	Based on openmpt_129_01_00 [
+		Color-coded channel headers
+		Sample editor timeline added
+		OPL register dump export added (VGM / VGZ)
+		Symphonie Pro, Digital Symphony, FM Tracker, Scream Tracker Music Interface Kit, Psycho Pinball / Micro Machines 2 module import
+		TakeTracker TDZ1 / TDZ2 / TDZ3 module import
+		Support for more XPK variants and other legacy compression formats
+		GUS / SB driver detection in S3M files
+		Support for IFF MAUD samples
+		Improved raw sample import
+		Micro-tuning pattern commands added
+		Support for SF2 soundfonts with FLAC and Vorbis samples
+		Support for Windows on ARM added
+		Support for Windows XP / Vista re-introduced through experimental builds with reduced functionality
+	]
+
+openmpt_131_01_00
+	Name: OpenMPT 1.31.01.00
+	Author: Saga Musix & manx
+	Date: 2023-04-30		# Announcement
+	Based on openmpt_130_01_00 [
+		Unused sample removal improved
+		Searchable instrument library
+		Tone portamento for instrument plugins
+		Auto-follow playback cursor when zooming into sample waveforms
+		Improved sinc resampling quality
+		Composer 667, Graoumf Tracker, Dynamic Studio, Astroidea XMF module import
+		Support for hacked variants of the DSMI AMF and MOD formats
+	]
+
+openmpt_132_01_00
+	Name: OpenMPT 1.32.01.00
+	Author: Saga Musix & manx
+	Date: 2025-05-31		# Announcement
+	Based on openmpt_131_01_00 [
+		Quick start / project assistant added
+		Full DPI-awareness
+		Improved main toolbar
+		Metronome added
+		Improved pattern merging
+		VST shell plugin support added
+		Improved sample pitch shifting and time stretching
+		Improved MIDI Input / Output plugin
+		Resampling samples in MOD files can now update pattern notes
+		Fixed-width font for sample / instrument texts
+		PumaTracker, Game Music Creator, ChipTracker, TCB Tracker, Images Music System, Face The Music, RealTracker, EasyTrax, UNIC Tracker v1, Future Composer, Chuck Biscuits / Black Artist module import
+		Support for synthesized / hybrid instruments in MED files
+		Support for automatic slide commands in various formats
+		Support for extended features in His Master's Noise modules
 	]
